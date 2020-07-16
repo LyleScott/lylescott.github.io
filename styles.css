@@ -3,17 +3,45 @@ body {
     font-size: .9rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     font-family: 'Roboto', serif;
+    letter-spacing: .04rem;
 }
 
-h1, h2, p {
+h1 {
     margin: 0;
     padding: 0;
 }
 
+h2 {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
 h3 {
-    margin-bottom: .05in;;
+    margin-bottom: .4rem;
+    margin-top: .8rem;
+}
+
+/*h1, h2, p {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*h3 {*/
+/*    margin-bottom: .05in;;*/
+/*}*/
+
+/* general */
+
+
+.naked-list {
+    list-style: none;
+}
+
+.space-killa {
+    margin: 0;
+    padding: 0;
 }
 
 #page-container {
@@ -25,16 +53,6 @@ h3 {
 
 #contacts {
     background-color: gray;
-}
-
-#contact-left {
-    width: 50%;
-    float: left;
-}
-
-#contact-right {
-    width: 50%;
-    float: left;
 }
 
 .job-employer {
@@ -62,4 +80,33 @@ h3 {
 
 @page {
     margin: 2cm;
+}
+
+
+.main-row {
+    display: flex;
+}
+
+.main-errata-column {
+    margin-right: 1rem;
+    width: 45rem;
+}
+
+.main-content-column {
+}
+
+.pill {
+    background-color: #ddd;
+    border: #cdcccc 1px solid;
+    border-radius: 5px;
+    color: black;
+    display: inline-block;
+    padding: 0 8px;
+    text-align: center;
+    margin: .1rem 0;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: blue;
+    text-decoration: none;
 }
