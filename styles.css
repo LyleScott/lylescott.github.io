@@ -1,0 +1,65 @@
+body {
+    font-family: 'Source Sans Pro', serif;
+    font-size: .9rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', serif;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin-bottom: .05in;;
+}
+
+#page-container {
+    width: 8.5in;
+    height: 11in;
+    margin: 0 auto;
+    display: block;
+}
+
+#contacts {
+    background-color: gray;
+}
+
+#contact-left {
+    width: 50%;
+    float: left;
+}
+
+#contact-right {
+    width: 50%;
+    float: left;
+}
+
+.job-employer {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.job-title {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.job-when {
+    font-size: smaller;
+    color: #666;
+
+}
+
+.job-skills {
+
+}
+
+@media print {
+}
+
+@page {
+    margin: 2cm;
+}
