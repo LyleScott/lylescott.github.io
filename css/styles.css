@@ -121,3 +121,21 @@ h3 {
 #contact-list {
     line-height: 1.3rem;
 }
+
+@media only screen and (max-width: 650px) {
+    h1 {
+        margin-top: 1rem;
+    }
+    .job-employer {
+        margin-top: 1rem;
+    }
+    #page-container {
+        width: auto;
+    }
+    .main-errata-column {
+        width: auto;
+    }
+    .main-row {
+        display: block;
+    }
+}
