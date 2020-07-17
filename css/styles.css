@@ -1,4 +1,7 @@
 @media print {
+    .hidden-during-print {
+        display: none;
+    }
 }
 
 @page {
