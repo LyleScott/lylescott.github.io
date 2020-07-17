@@ -1,10 +1,13 @@
 body {
-    font-family: 'Source Sans Pro', serif;
+    /*font-family: 'Open Sans', serif;*/
     font-size: .88rem;
+    font-family: 'Roboto', serif;
 }
 
-h1, h2, h3 {
-    font-family: 'Roboto', serif;
+h1, h2, h3, h4 {
+    font-family: 'Source Sans Pro', serif;
+    /*font-family: 'Oxygen', serif;*/
+    /*font-family: 'Nunito', serif;*/
     letter-spacing: .04rem;
 }
 
@@ -76,7 +79,9 @@ h3 {
     width: 45rem;
 }
 
-.main-content-column {
+.main-content-column p,
+.main-content-column li {
+    line-height: 1.1rem;
 }
 
 .pill {
