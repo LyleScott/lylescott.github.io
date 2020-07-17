@@ -8,6 +8,19 @@ body {
     font-size: .75rem;
 }
 
+h1, h2, h3 {
+    font-weight: 500;
+}
+
+.job-employer {
+    letter-spacing: 0.11rem;
+    font-weight: 500;
+}
+
+.job-title {
+    letter-spacing: 0.07rem;
+}
+
 .hidden-during-print {
     display: none;
 }
