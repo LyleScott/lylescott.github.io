@@ -70,6 +70,10 @@ h3 {
     margin: .5rem 0;
 }
 
+.job-skills > ul > li {
+    margin-bottom: .2rem;
+}
+
 .main-row {
     display: flex;
 }
@@ -97,4 +101,8 @@ h3 {
 
 .deprecated {
     color: gray;
+}
+
+#contact-list {
+    line-height: 1.3rem;
 }
