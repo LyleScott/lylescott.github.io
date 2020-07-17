@@ -58,9 +58,10 @@ h3 {
     color: #666;
 }
 
-.job-skills {
-
+.job-skills > ul {
+    list-style-type: square;
 }
+
 
 @media print {
 }
