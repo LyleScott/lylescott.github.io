@@ -47,13 +47,12 @@ h3 {
 
 .job-title {
     font-style: italic;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .job-when {
     font-size: smaller;
     color: #666;
-
 }
 
 .job-skills {
