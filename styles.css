@@ -12,7 +12,7 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'Source Sans Pro', serif;
-    letter-spacing: .04rem;
+    letter-spacing: .05rem;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: .95rem;
     margin: 0;
 }
 
