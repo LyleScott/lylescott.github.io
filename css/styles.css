@@ -8,7 +8,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 body {
-    font-size: .88rem;
+    font-size: .87rem;
     font-family: 'Roboto', serif;
 }
 
@@ -63,6 +63,7 @@ h3 {
 .job-when {
     font-size: smaller;
     color: #666;
+    float: right;
 }
 
 .job-skills > ul {
