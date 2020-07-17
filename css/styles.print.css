@@ -3,10 +3,24 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
+body {
+    background-color: white;
+}
+
 .hidden-during-print {
     display: none;
 }
 
 .deprecated {
     color: black;
+}
+
+#page-container {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pill {
+    background-color: white;
 }
