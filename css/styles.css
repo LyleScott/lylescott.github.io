@@ -1,11 +1,10 @@
-@media print {
-    .hidden-during-print {
-        display: none;
-    }
-}
-
 @page {
     margin: 2cm;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: blue;
+    text-decoration: none;
 }
 
 body {
@@ -95,7 +94,6 @@ h3 {
     margin: .1rem 0;
 }
 
-a:link, a:visited, a:hover, a:active {
-    color: blue;
-    text-decoration: none;
+.deprecated {
+    color: gray;
 }
