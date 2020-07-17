@@ -67,6 +67,7 @@ h3 {
 
 .job-skills > ul {
     list-style-type: square;
+    margin: .5rem 0;
 }
 
 .main-row {
